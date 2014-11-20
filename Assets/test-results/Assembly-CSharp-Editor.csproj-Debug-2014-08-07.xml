@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2014-08-07T00:05:37</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T00:06:28</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T11:38:29</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T11:40:18</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T11:42:38</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T11:43:26</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T11:50:28</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T11:52:03</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T11:57:44</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:00:49</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:20:27</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:22:22</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:23:08</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:24:32</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:25:42</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:27:06</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-08-07T12:28:17</TestDate>
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Nie można załadować pliku lub zestawu 'nunit.framework, Version=2.6.2.0, Culture=neutral, PublicKeyToken=93811cf430eaf12a' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)</Message>
+      <StackTrace>
+Server stack trace: 
+   w System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   w System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   w System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   w System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly&amp; lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType&amp; attributeType, IRuntimeMethodInfo&amp; ctor, Boolean&amp; ctorHasParameters, Boolean&amp; isVarArg)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   w System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   w System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   w NUnit.Core.CoreExtensions.InstallAdhocExtensions(Assembly assembly)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   w NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   w NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   w NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   w NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   w NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\NUnitRunner\NUnitTestRunner.cs:wiersz 103
+   w MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly)
+   w MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies, String testRunnerType, String testRunnerAssembly) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:wiersz 83
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 402
+   w MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:wiersz 333
+   w MonoDevelop.NUnit.NUnitProjectTestSuite.OnRun(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\NUnitProjectTestSuite.cs:wiersz 123
+   w MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) w c:\BuildAgent\work\d478831d940d36a4\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:wiersz 361</StackTrace>
+    </UnitTestResult>
+  </Results>
+  <Tests />
+</TestRecord>

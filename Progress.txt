@@ -1,0 +1,9 @@
+v 0.001
+
+Node-based map with route finding algorithm implemented
+-Roads with a cost of 1
+-Plains with a cost of 2
+
+next:
+player based armies
+army based units

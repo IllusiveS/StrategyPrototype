@@ -1,0 +1,37 @@
+This is a prototype of a turn based strategy game where players have to plan movements of their armies as well as battle formations of units
+
+In a medieval world the people oppressed by the empire have started the rebellion. 
+Now the imperial armies (green player) are coming to thwart it before armies of the people (red player) will survive enough time so it can spread and more people will join it.
+
+
+Battle
+Battle occurs when one army enters the field with another army. For battle units must assemble a formation (be placed in one of 2 rows and 3 columns of a formation). 
+Players place unit after unit. Unless the other player has no units to place.
+Left number in unit's description is its strength. Its at the same time its damage and how much damage it can take unless fragile(dies after one hit).
+Right number in unit's description is its glory. After battle the winner recieves as much glory points as he had more than the losing player.
+Regularly unit can attack units in adjacent columns. There are some exceptions to this rule.
+Assassin - can attack everyone
+Archer - can attack over one column
+Horsemen - after killing adjacent unit, if there was any damage left it’s transferred to the unit behind.
+
+Other special units abilities are:
+Foresteer - army with a foresteer moves quicker through the forest
+Chronicler - can’t attack while provides huge glory bonus
+
+Players attack with unit after unit. If the other player have no units to place - like in placing - he can move his units without interruption.
+
+Battle ends when all units have moved or one side died. 
+Player with more glory points (shown at the bottom of the screen trough combat) is getting the amount that over exceeds the amount of glory points the other player have.
+
+
+Victory condition
+Player having more glory points (in upper right corner) by the end of turn 6 is declared the winner.
+Points are earned for capturing forts (10 points each, passing trough the fort is enough to capture it).
+Points are earned for winning battles (for each glory point more than your enemy + 1)
+
+Other things worth mentioning
+Armies can attack once per turn
+Captured city without an army is worth more points
+Selecting a unit and clicking on it again passes its turn
+
+

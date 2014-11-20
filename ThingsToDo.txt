@@ -1,0 +1,1 @@
+Implement armies with moving algorithms and nodes detection
